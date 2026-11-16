@@ -1,0 +1,28 @@
+{
+  "profile_id": "local-cl100k-1200-v1",
+  "splitter_version": "preprocess-splitter-1.0.0",
+  "parser_version": "preprocess-parser-1.4.0",
+  "scope_note": "可复现的本地原型配置；不声称与最终 embedding 模型一致。最终模型确定后须更换匹配 tokenizer/profile 并重做切片。",
+  "tokenizer": {
+    "name": "cl100k_base",
+    "library": "tiktoken",
+    "library_version": "0.9.0",
+    "regex_library": "regex 2.5.148 (wheel regex-2024.11.6)",
+    "encoding_resource": "config/tokenizer/cl100k_base.tiktoken",
+    "encoding_resource_sha256": "223921b76ee99bde995b7ff738513eef100fb51d18c93597a113bcffe865b2a7",
+    "mergeable_ranks": 100256,
+    "special_tokens_source": "tiktoken_ext.openai_public.cl100k_base",
+    "offline_only": true
+  },
+  "max_tokens": 1200,
+  "overlap_tokens": 0,
+  "counting_text_rule": "index_header + '\\n' + text",
+  "counting_unit": "tiktoken cl100k_base token ids over UTF-8 Python str (no special tokens allowed)",
+  "token_count_field": "检索文本（索引头 + 换行 + 切片正文）的 token 数；单列 text_token_count 记录仅正文的 token 数",
+  "index_header_max_tokens": 120,
+  "index_header_shorten_rule": "超出预算时依次截短 hierarchy、标题，最后截短法名；只缩短索引头，不删除或改写正文",
+  "unicode_policy": "按 Python str 边界切分；token 兜底用二分查找最大原文前缀，禁止 decode 局部 token 字节；每个片段必须是 provision.text 的连续子串",
+  "split_order": ["whole_provision", "structural_blocks", "sentence_groups", "token_prefix_boundary"],
+  "table_policy": "表格按结构化行切分，表头作为辅助上下文重复时不计入原文覆盖对账",
+  "reconstruction_rule": "同一 provision 的 chunks 按 sequence 顺序拼接 text，须逐字还原 provision.text（overlap=0）"
+}

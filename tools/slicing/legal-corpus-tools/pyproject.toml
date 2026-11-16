@@ -1,0 +1,6 @@
+[project]
+name = "legal-corpus-tools"
+version = "0.1.0"
+description = "独立法律语料预处理与分类工具"
+requires-python = ">=3.11"
+dependencies = ["PyMuPDF==1.25.5", "lxml==5.4.0", "beautifulsoup4==4.14.3"]

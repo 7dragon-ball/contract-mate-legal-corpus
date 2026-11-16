@@ -1,0 +1,7 @@
+{
+  "endpoint": "",
+  "model": "",
+  "api_key": "",
+  "api_key_env": "LEGAL_CLASSIFIER_API_KEY",
+  "timeout": 120
+}

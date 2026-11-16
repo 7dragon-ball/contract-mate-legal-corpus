@@ -1,0 +1,16 @@
+[
+  {
+    "law_id": "hk:cap26",
+    "jurisdiction": "hk",
+    "official_title": "请填写官方法名",
+    "source_url": "https://www.elegislation.gov.hk/hk/cap26",
+    "files": ["corpus/hk/raw/请替换为实际文件.xml"]
+  },
+  {
+    "law_id": "sg:SGA1979",
+    "jurisdiction": "sg",
+    "official_title": "Sale of Goods Act 1979",
+    "source_url": "https://sso.agc.gov.sg/Act/SGA1979",
+    "files": ["corpus/sg/raw/SGA1979.pdf"]
+  }
+]

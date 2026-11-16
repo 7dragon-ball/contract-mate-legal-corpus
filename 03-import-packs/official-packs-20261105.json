@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-11-06 18:19:18",
+  "source": "02-sliced",
+  "packs": {
+    "hk": {
+      "path": "03-import-packs/hk-official-pack-20261105.zip",
+      "bytes": 26972122,
+      "unpacked_bytes": 169947029,
+      "package_id": "bb36b771c3d9f8f57b3a00da9fe58cdd0194136b3cad766a8aba3e711e584a37",
+      "sha256": "f926d0665cc600d2cb272e204f35dbf3525c9397bb2660f760ae95d390d16ac5",
+      "counts": {
+        "chunks": 69525,
+        "provisions": 68918,
+        "laws": 64,
+        "editions": 128
+      },
+      "sources": 128
+    },
+    "sg": {
+      "path": "03-import-packs/sg-official-pack-20261105.zip",
+      "bytes": 6116971,
+      "unpacked_bytes": 32111468,
+      "package_id": "eb5224b45aa637b5592a7421cdd524875d1e166671f8cf6712c8444d65ed5d62",
+      "sha256": "e2b72a2dafbd0cc5f54444a4fa0f67586d3de01e5ead08aed3fbd3289e34957d",
+      "counts": {
+        "chunks": 7467,
+        "provisions": 7089,
+        "laws": 78,
+        "editions": 78
+      },
+      "sources": 78
+    }
+  }
+}

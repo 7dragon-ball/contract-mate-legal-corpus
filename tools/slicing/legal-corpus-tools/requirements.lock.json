@@ -1,0 +1,92 @@
+{
+  "python": ".venv 3.11.16",
+  "install_mode": "offline vendor: wheels extracted to .vendor/ (no pip install into site-packages)",
+  "note": "正式 run/validate 不联网；依赖副本与编码资源摘要均锁定",
+  "packages": [
+    {
+      "wheel": "beautifulsoup4-4.14.3-py3-none-any.whl",
+      "bytes": 107721,
+      "sha256": "0918bfe44902e6ad8d57732ba310582e98da931428d231a5ecb9e7c703a735bb"
+    },
+    {
+      "wheel": "certifi-2026.10.23-py3-none-any.whl",
+      "bytes": 135082,
+      "sha256": "e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1"
+    },
+    {
+      "wheel": "charset_normalizer-3.5.2-cp311-cp311-macosx_10_9_universal2.whl",
+      "bytes": 370642,
+      "sha256": "3d21b8b13c7592db2ac5e544a6d83187b995257472b0c9e8351b6d507ae37ed6"
+    },
+    {
+      "wheel": "idna-3.20-py3-none-any.whl",
+      "bytes": 69583,
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+    },
+    {
+      "wheel": "iniconfig-2.3.1-py3-none-any.whl",
+      "bytes": 7552,
+      "sha256": "9121e2c1fdb355232495be3194c8dfe87ccc2d5dee45947b78e68f499790d7a7"
+    },
+    {
+      "wheel": "lxml-5.4.0-cp311-cp311-macosx_10_9_universal2.whl",
+      "bytes": 8083240,
+      "sha256": "98a3912194c079ef37e716ed228ae0dcb960992100461b704aea4e93af6b0bb9"
+    },
+    {
+      "wheel": "packaging-26.3-py3-none-any.whl",
+      "bytes": 129956,
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+    },
+    {
+      "wheel": "pluggy-1.7.0-py3-none-any.whl",
+      "bytes": 27082,
+      "sha256": "7dd7b0d8832ba3cb632c306926ded123429211b83641b35dc5c41ad2d34f9bec"
+    },
+    {
+      "wheel": "pygments-2.21.0-py3-none-any.whl",
+      "bytes": 1250147,
+      "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9"
+    },
+    {
+      "wheel": "pymupdf-1.25.5-cp39-abi3-macosx_11_0_arm64.whl",
+      "bytes": 18606161,
+      "sha256": "5a35e2725fae0ab57f058dff77615c15eb5961eac50ba04f41ebc792cd8facad"
+    },
+    {
+      "wheel": "pytest-8.4.2-py3-none-any.whl",
+      "bytes": 365750,
+      "sha256": "872f880de3fc3a5bdc88a11b39c9710c3497a547cfa9320bc3c5e62fbf272e79"
+    },
+    {
+      "wheel": "regex-2024.11.6-cp311-cp311-macosx_11_0_arm64.whl",
+      "bytes": 284589,
+      "sha256": "94d87b689cdd831934fa3ce16cc15cd65748e6d689f5d2b8f4f4df2065c9fa20"
+    },
+    {
+      "wheel": "requests-2.34.2-py3-none-any.whl",
+      "bytes": 73075,
+      "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0"
+    },
+    {
+      "wheel": "soupsieve-4.0.1-py3-none-any.whl",
+      "bytes": 50688,
+      "sha256": "2e68cf7dd5a0f29d81f9d485275ccf294e6475f615e211895d91cb81f8614f04"
+    },
+    {
+      "wheel": "tiktoken-0.9.0-cp311-cp311-macosx_11_0_arm64.whl",
+      "bytes": 1009155,
+      "sha256": "45556bc41241e5294063508caf901bf92ba52d8ef9222023f83d2483a3055348"
+    },
+    {
+      "wheel": "typing_extensions-4.16.0-py3-none-any.whl",
+      "bytes": 45571,
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+    },
+    {
+      "wheel": "urllib3-2.8.0-py3-none-any.whl",
+      "bytes": 135717,
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+    }
+  ]
+}

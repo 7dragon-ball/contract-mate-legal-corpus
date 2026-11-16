@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-11-07 20:11:12",
+  "source": "02-sliced",
+  "packs": {
+    "cn": {
+      "path": "03-import-packs/cn-official-pack-20261107.zip",
+      "bytes": 2125124,
+      "unpacked_bytes": 12779495,
+      "package_id": "bacf4652e27f0f6111a0279c40d6f620844da84085f9fd6305037137a5e44840",
+      "sha256": "ba4cd80d236ff80a4e549fdb458bd042d87005190fc5d52b092e9fd5634a4637",
+      "counts": {
+        "chunks": 5943,
+        "provisions": 5943,
+        "laws": 73,
+        "editions": 73
+      },
+      "sources": 73,
+      "legal_as_of": "2026-11-07",
+      "corpus_commit": "cn-docs-20261107"
+    }
+  }
+}
